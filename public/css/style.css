@@ -1,0 +1,128 @@
+body{
+    background-color:#081818 !important;
+    /* font-family: "Plus Jakarta Sans", sans-serif !important; */
+    color:white !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.add-btn{
+    background-color:#00FFFF;
+    border:none;
+    border-radius: 2px 2px 2px 2px;
+    /* border-color: black; */
+}
+
+.container{
+    flex:1;
+}
+.navbar {
+    height: 5rem;
+    background-color: black;
+}
+
+.container-fluid{
+    background-color: #081818;
+    border:2px solid aqua;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px !important;
+    
+}
+
+.fa-app-store-ios{
+    color:#00FFFF;
+    font-size: 2rem;
+}
+.nav-link {
+    color: white !important;
+}
+
+/* --------footer-------- */
+
+.f-info{
+    background-color:black !important;
+    height: 8rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #00FFFF;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    text-decoration: none;
+    color: #00FFFF;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    }
+
+    /* ---------Cards------- */
+.card{
+    border:none !important;
+    margin:0.5rem;
+    background-color: black !important;
+    border:2px solid aqua !important;
+    padding: 15px 15px 15px 15px !important;
+    color:white !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit:cover !important;
+}
+
+.card-body{
+    padding:0 !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+    
+}
+
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity:0;
+    color:black;
+    
+}
+
+.card-img-overlay:hover{
+    opacity:0.1;
+    background-color: white;
+}
+
+/* Show Page */
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display:flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
